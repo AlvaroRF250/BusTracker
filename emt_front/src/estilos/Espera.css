@@ -1,0 +1,83 @@
+#contentEspera .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .espera-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 55%;
+  }
+  
+  .espera-item {
+    margin-bottom: 10px;
+  }
+  
+  .linea-info {
+    font-weight: bold;
+  }
+  
+  .linea-nombre {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #0070d2;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .tiempo-espera {
+    margin-left: 5px;
+  }
+  
+  .destino-info {
+    font-style: italic;
+    color: #0070d2;
+  }
+  
+  .floating-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #5ca9dd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    color: #000;
+    opacity: 0;
+    animation: fade-in-out 2s ease-in-out;
+  }
+  
+  @keyframes fade-in-out {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .floating-message p {
+    margin: 0;
+    font-size: 20px;
+    color: #000;
+  }
+  
+  
+  
+  

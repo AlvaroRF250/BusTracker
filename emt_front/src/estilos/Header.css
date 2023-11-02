@@ -1,0 +1,64 @@
+#header {
+    background-color: #0070d2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4.5%;
+  }
+  
+  #header .logo {
+    margin-left: 5%;
+    color: black;
+    font-size: 24px;
+  }
+  #header .logo a img:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  #header .logo #imagen {
+    height: 150px;
+  }
+  #header .login-button {
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-right: 5%;
+  }
+  
+  #header .login-button .user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #header .login-button .user-profile a {
+    margin-bottom: 5px;
+    text-decoration: none;
+  }
+
+  .custom-tooltip {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .custom-tooltip::before {
+    content: attr(title);
+    position: absolute;
+    top: 80%;
+    left: 100%;
+    transform: translateX(-50%);
+    padding: 8px;
+    background-color: #5ca9dd;
+    color: black;
+    font-size: 14px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    pointer-events: none;
+  }
+
+  .custom-tooltip:hover::before {
+    opacity: 1;
+  }
+  

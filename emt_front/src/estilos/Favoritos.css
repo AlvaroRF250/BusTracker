@@ -1,0 +1,58 @@
+  #contentFavoritos .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .favoritos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .favorito-item{
+    margin: 10px;
+  }
+  
+  .parada-link {
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .lineas-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  
+  .lineas-container .linea-item {
+    margin-bottom: 5px;
+  }
+  
+
+  .consulta-item{
+    margin: 10px;
+  }
+  
+  .linea-item {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #0070d2;
+    color: white;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+  }
+  
+  .no-lineas {
+    font-style: italic;
+    color: red;
+  }
+  

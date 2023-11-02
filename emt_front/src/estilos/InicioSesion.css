@@ -1,0 +1,52 @@
+  #contentSesion .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  #formSesion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #79bce2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  #formSesion p {
+    margin-bottom: 10px;
+    color: red;
+  }
+  
+  #formSesion input[type="text"],
+  #formSesion input[type="password"] {
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #formSesion button, a button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0070d2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+
+  #formInicioSesion input[type="text"],
+  #formInicioSesion input[type="password"] {
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+  }
+  

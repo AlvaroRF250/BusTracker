@@ -1,0 +1,33 @@
+#contentLineas .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+
+}
+
+.table-container {
+    overflow-x: auto;
+  }
+  
+  .lineas-table {
+    table-layout: fixed;
+    width: 100%;
+  }
+  
+  .lineas-table td {
+    white-space: nowrap;
+    width: 100px;
+    padding: 10px;
+  }
+  
+#tabla{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tabla a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
